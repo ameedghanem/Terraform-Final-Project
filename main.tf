@@ -79,15 +79,7 @@ module "create_s3_bucket"{
 module "create_rds"{
   source = "./modules/RDS/"
 
-  multiple_az = true // here is the trick, this creates automatically a replica in another az.. u just need now to tell him which az's !!!
+  multiple_az = true
   db_username = "mainuser"
   db_password = "12345678a"
 }
-
-/*module "create_rds_replica"{
-  source = "./modules/RDS/"
-
-  db_username = "nodeuser"
-  db_password = "12345678a"
-  replicate_db = module.create_rds.db_instance_id
-}*/
