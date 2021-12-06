@@ -1,5 +1,5 @@
 ## Terraform Final Project
-    ![](https://github.com/ameedghanem/Terraform-Final-Project/blob/main/logo/AWS_TF%20Final%20Task.jpg)
+![](https://github.com/ameedghanem/Terraform-Final-Project/blob/main/logo/AWS_TF%20Final%20Task.jpg)
 
 ## About
 This is a HCL code that sets up an infrastructre as in the above image.
