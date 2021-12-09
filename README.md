@@ -3,7 +3,7 @@
 
 ## About
 This is a HCL code that sets up an infrastructre as in the above image.
-I've implemented fo this purpose the follownig module:
+I've implemented for this purpose the follownig modules:
 - Instance
 - Load_Balancer
 - S3_Bucket
@@ -20,4 +20,5 @@ I've implemented fo this purpose the follownig module:
     $ cd Terraform-Final-Project/
 
 ## Deployment
+    $ terraform init
     $ terraform apply -var="accessKey=<your access key>" -var="secretKey=<you secret key>"
